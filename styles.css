@@ -4,17 +4,17 @@ body {
   font-family: "Karla", sans-serif;
 }
 .container {
-  background-color: #1e2a38;
+  background-color: #ecfdf5;
   padding: 30px;
-  max-width: 60%;
+  width: 500px;
   margin: auto;
   margin-top: 110px;
-  border: 3px solid #61d47f;
+  border: 5px solid #61d47f;
   border-radius: 10px;
 }
 h1 {
   text-align: center;
-  color: #fff;
+  color: #273549;
   font-size: 50px;
 }
 span {
@@ -22,7 +22,7 @@ span {
 }
 p {
   text-align: center;
-  color: #fff;
+  color: #6b7280;
   font-size: 20px;
 }
 .container_button {
@@ -31,18 +31,22 @@ p {
   margin: 20px;
 }
 button {
-    padding: 10px;
-    border-radius: 10px;
-    border: navajowhite;
-    background-color: #61d47f;
-    color: #fff;
-    font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 6px;
+  border: navajowhite;
+  background-color: #61d47f;
+  color: #fff;
+  font-size: 20px;
 }
-.container_results  {
+.container_results {
   padding-top: 10px;
   text-align: center;
 }
 input {
-    padding: 10px;
-    
+  padding: 10px;
+  background-color: #273549;
+  color: #61d47f;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
 }

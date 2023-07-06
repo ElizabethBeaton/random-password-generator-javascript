@@ -106,7 +106,7 @@ function generateRandomPassword() {
   }
   return randomPassword;
 }
-
+// Function to update the password fields with generated passwords
 function updatePasswordFields() {
   const passwordField1 = document.getElementById("password-1");
   const passwordField2 = document.getElementById("password-2");
@@ -114,5 +114,6 @@ function updatePasswordFields() {
   passwordField2.value = generateRandomPassword();
 }
 
+// Add event listener to the "Generate password" button
 const generateButton = document.querySelector(".container_button button");
 generateButton.addEventListener("click", updatePasswordFields);
