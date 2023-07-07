@@ -117,3 +117,15 @@ function updatePasswordFields() {
 // Add event listener to the "Generate password" button
 const generateButton = document.querySelector(".container_button button");
 generateButton.addEventListener("click", updatePasswordFields);
+
+// Add event listener to the "Clear Screen" button
+const clearButton = document.querySelectorAll(".container_button button")[1];
+clearButton.addEventListener("click", clearInputFields);
+
+// Function to clear the input fields
+function clearInputFields() {
+  const passwordField1 = document.getElementById("password-1");
+  const passwordField2 = document.getElementById("password-2");
+  passwordField1.value = "";
+  passwordField2.value = "";
+}
